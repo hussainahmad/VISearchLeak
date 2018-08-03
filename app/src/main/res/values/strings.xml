@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">VI Search Leak</string>
     <string name="go_to_next_to_check_leak">Go to next to Check Leak :)</string>
+    <string name="instruction_check_for_leaks">Go back, force a GC and check HPROF for leaks</string>
 </resources>

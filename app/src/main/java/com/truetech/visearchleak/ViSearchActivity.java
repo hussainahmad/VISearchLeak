@@ -24,7 +24,7 @@ public class ViSearchActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vi_search);
         mViSearch = new ViSearch
-                .Builder("myKey......").build(this);
+                .Builder("your Key......").build(this);
         viSearchResultListener = new ViSearch.ResultListener() {
             @Override
             public void onSearchResult(ResultList resultList) {
@@ -44,7 +44,7 @@ public class ViSearchActivity extends AppCompatActivity {
         };
         mViSearch.setListener(viSearchResultListener);
 
-        fetchSuggestedItems("358536");
+        fetchSuggestedItems("your ID");
     }
 
     private void fetchSuggestedItems(String id) {
